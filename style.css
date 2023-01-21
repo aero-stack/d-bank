@@ -1,0 +1,86 @@
+body {
+  background-color: #26004d;
+  background-image: radial-gradient(
+      at 86% 4%,
+      hsla(326, 86%, 62%, 1) 0,
+      hsla(326, 86%, 62%, 0) 50%
+    ),
+    radial-gradient(
+      at 26% 18%,
+      hsla(184, 94%, 70%, 1) 0,
+      hsla(184, 94%, 70%, 0) 50%
+    ),
+    radial-gradient(
+      at 76% 15%,
+      hsla(221, 92%, 57%, 1) 0,
+      hsla(221, 92%, 57%, 0) 50%
+    ),
+    radial-gradient(
+      at 34% 87%,
+      hsla(291, 94%, 54%, 1) 0,
+      hsla(291, 94%, 54%, 0) 50%
+    ),
+    radial-gradient(
+      at 61% 28%,
+      hsla(18, 95%, 53%, 1) 0,
+      hsla(18, 95%, 53%, 0) 50%
+    ),
+    radial-gradient(
+      at 30% 95%,
+      hsla(146, 93%, 55%, 1) 0,
+      hsla(146, 93%, 55%, 0) 50%
+    ),
+    radial-gradient(
+      at 39% 19%,
+      hsla(189, 87%, 56%, 1) 0,
+      hsla(189, 87%, 56%, 0) 50%
+    );
+}
+
+#login {
+  border: 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(1.9px);
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+#loginbtn {
+  margin-top: 30px;
+  padding: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: 3px solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  color: rgb(36, 36, 36);
+  background-color: white;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px;
+  border-color: rgb(255, 255, 255);
+  color: rgb(36, 36, 36);
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
